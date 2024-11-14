@@ -27,7 +27,7 @@ const Introduction = () => {
                     </b></h1>
 
                     <p className="mx-auto mb-2 text-xl md:text-xl md:mx-0 md:mb-2">
-                    "Soy un desarrollador de sistemas de información con experiencia en la creación de aplicaciones web y móviles." 
+                    Soy un desarrollador de sistemas de información con experiencia en la creación de aplicaciones web y móviles. 
                     </p>
                     <p className="mx-auto mb-2 text-lg md:text-xl md:mx-0 md:mb-2">
                         Con conocimiento en diversos lenguajes de programación como Python, C#, Kotlin, JS y Java. Estoy comprometido con el aprendizaje continuo y la innovación, y estoy abierto a nuevas oportunidades para aplicar mis habilidades y crecer profesionalmente.
