@@ -55,48 +55,92 @@ const ServicesPage = () => {
                     {/* Frontend */}
                     <h3 className="text-2xl font-bold text-center mb-5">Frontend</h3>
                     <div className="flex flex-wrap justify-center gap-6">
-                        <Image src={htmlLogo} alt="HTML Logo" className="w-16 h-16"/>
-                        <Image src={cssLogo} alt="CSS Logo" className="w-16 h-16"/>
-                        <Image src={jsLogo} alt="JavaScript Logo" className="w-16 h-16"/>
-                        <Image src={reactLogo} alt="React Logo" className="w-16 h-16"/>
-                        <Image src={bootstrap} alt="Bootstrap Logo" className="w-24 h-14"/>
-                        <Image src={tailwind} alt="Tailwind CSS Logo" className="w-28 h-8"/>
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-green-900">
+                            <Image src={htmlLogo} alt="HTML Logo" className="w-24 h-24 rounded-xl" />
+                        </div>
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-green-900">
+                            <Image src={cssLogo} alt="CSS Logo" className="w-24 h-24 rounded-xl" />
+                        </div>
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-green-900">
+                            <Image src={jsLogo} alt="JavaScript Logo" className="w-24 h-24 rounded-xl" />
+                        </div>
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-green-900">
+                            <Image src={reactLogo} alt="React Logo" className="w-24 h-24 rounded-xl" />
+                        </div>
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-green-900">
+                            <Image src={bootstrap} alt="Bootstrap Logo" className="w-28 h-20 rounded-xl" />
+                        </div>
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-green-900">
+                            <Image src={tailwind} alt="Tailwind CSS Logo" className="w-32 h-12 rounded-xl" />
+                        </div>
                     </div>
 
                     {/* Backend */}
                     <h3 className="text-2xl font-bold text-center mt-12 mb-5">Backend</h3>
                     <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-6 justify-items-center">
-                        <Image src={java} alt="Java Logo" className="w-16 h-16"/>
-                        <Image src={python} alt="Python Logo" className="w-16 h-16"/>
-                        <Image src={csharp} alt="C# Logo" className="w-16 h-16"/>
-                        <Image src={spring} alt="Spring Logo" className="w-16 h-16"/>
-                        <Image src={nodeLogo} alt="Node.js Logo" className="w-16 h-16"/>
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-green-900">
+                            <Image src={java} alt="Java Logo" className="w-20 h-20 rounded-xl" />
+                        </div>
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-green-900">
+                            <Image src={python} alt="Python Logo" className="w-20 h-20 rounded-xl" />
+                        </div>
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-green-900">
+                            <Image src={csharp} alt="C# Logo" className="w-20 h-20 rounded-xl" />
+                        </div>
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-green-900">
+                            <Image src={spring} alt="Spring Logo" className="w-20 h-20 rounded-xl" />
+                        </div>
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-green-900">
+                            <Image src={nodeLogo} alt="Node.js Logo" className="w-20 h-20 rounded-xl" />
+                        </div>
                     </div>
 
                     {/* Desarrollo Móvil */}
                     <h3 className="text-2xl font-bold text-center mt-12 mb-5">Desarrollo Móvil</h3>
                     <div className="flex flex-wrap justify-center gap-6">
-                        <Image src={kotlin} alt="Kotlin Logo" className="w-16 h-16"/>
-                        <Image src={java} alt="Java Logo" className="w-16 h-16"/>
-                        <Image src={androidstudio} alt="Android Studio Logo" className="w-28 h-18"/>
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-green-900">
+                            <Image src={kotlin} alt="Kotlin Logo" className="w-20 h-20 rounded-xl" />
+                        </div>
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-green-900">
+                            <Image src={java} alt="Java Logo" className="w-20 h-20 rounded-xl" />
+                        </div>
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-green-900">
+                            <Image src={androidstudio} alt="Android Studio Logo" className="w-32 h-20 rounded-xl" />
+                        </div>
                     </div>
 
                     {/* Bases de Datos */}
                     <h3 className="text-2xl font-bold text-center mt-12 mb-5">Bases de Datos</h3>
                     <div className="flex flex-wrap justify-center gap-6">
-                        <Image src={sqlserver} alt="SQL Server Logo" className="w-24 h-18"/>
-                        <Image src={mysql} alt="MySQL Logo" className="w-24 h-18"/>
-                        <Image src={mongodb} alt="MongoDB Logo" className="w-24 h-18"/>
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-green-900">
+                            <Image src={sqlserver} alt="SQL Server Logo" className="w-28 h-20 rounded-xl" />
+                        </div>
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-green-900">
+                            <Image src={mysql} alt="MySQL Logo" className="w-28 h-20 rounded-xl" />
+                        </div>
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-green-900">
+                            <Image src={mongodb} alt="MongoDB Logo" className="w-28 h-20 rounded-xl" />
+                        </div>
                     </div>
 
                     {/* Otras Tecnologías */}
                     <h3 className="text-2xl font-bold text-center mt-12 mb-5">Otras Tecnologías</h3>
                     <div className="flex flex-wrap justify-center gap-6">
-                        <Image src={git} alt="Git Logo" className="w-16 h-14"/>
-                        <Image src={figmaLogo} alt="Figma Logo" className="w-16 h-16"/>
-                        <Image src={scrum} alt="Scrum Logo" className="w-16 h-16"/>
-                        <Image src={ccna} alt="CCNA Logo" className="w-16 h-16"/>
-                        <Image src={linux} alt="Linux Logo" className="w-16 h-16"/>
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-green-900">
+                            <Image src={git} alt="Git Logo" className="w-20 h-16 rounded-xl" />
+                        </div>
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-green-900">
+                            <Image src={figmaLogo} alt="Figma Logo" className="w-20 h-20 rounded-xl" />
+                        </div>
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-green-900">
+                            <Image src={scrum} alt="Scrum Logo" className="w-20 h-20 rounded-xl" />
+                        </div>
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-green-900">
+                            <Image src={ccna} alt="CCNA Logo" className="w-20 h-20 rounded-xl" />
+                        </div>
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-green-900">
+                            <Image src={linux} alt="Linux Logo" className="w-20 h-20 rounded-xl" />
+                        </div>
                     </div>
                 </div>
             </div>
