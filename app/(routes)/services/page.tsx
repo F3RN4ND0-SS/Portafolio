@@ -44,7 +44,7 @@ const ServicesPage = () => {
             <div className="grid items-center justify-center h-screen max-w-4xl gap-6 mx-auto -mt-32 ">
                 {/* Skills Section */}
                 <h1 className="text-2xl leading-tight text-center md:text-center text-4xl md:mb-5 ">
-                    Mis <span className="font-bold text-secondary">skills.</span>
+                    My <span className="font-bold text-secondary">skills.</span>
                 </h1>
                 
                 {/* Tech Stack Section */}
