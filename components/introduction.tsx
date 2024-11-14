@@ -53,7 +53,7 @@ const Introduction = () => {
                     width="300"
                     height="300"
                     alt="Avatar"
-                    className="rounded-full shadow-xl shadow-green-900 border-2 border-green-500 transform hover:scale-105 hover:rotate-3 hover:shadow-2xl transition duration-300 ease-in-out sm:mt-20 md:-mt-40"
+                    className="rounded-full shadow-xl shadow-green-900 border-2 border-green-500 transform hover:scale-105 hover:rotate-3 hover:shadow-2xl transition duration-300 ease-in-out mt-40 md:-mt-40"
                 />
             </div>
         </div>
