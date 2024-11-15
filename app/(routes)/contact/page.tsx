@@ -56,14 +56,14 @@ const TestimonialsPage = () => {
             <div className='flex flex-col justify-center items-center mt-20 h-lvh px-14'>
                 <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
                     Algunos métodos 
-                    <span className="block font-bold text-secondary"> de contactarme!</span>
+                    <span className="block font-bold text-blue-600"> de contactarme!</span>
                 </h1>
 
                 <div className="flex flex-col md:flex-row justify-center items-start mt-8 space-y-6 md:space-y-0 md:space-x-8 max-w-4xl mx-auto">
                     {/* Lado izquierdo: Formulario */}
-                    <form onSubmit={sendEmail} className="flex-1 space-y-4">
+                    <form onSubmit={sendEmail} className="flex-1 space-y-4 shadow-xl shadow-[#85C1E9] px-4 py-3">
                         <div>
-                            <label htmlFor="name" className="block text-sm font-medium text-gray-700">Nombre</label>
+                            <label htmlFor="name" className="block text-sm font-medium text-gray-100">Nombre</label>
                             <input
                                 type="text"
                                 name="name"
@@ -75,7 +75,7 @@ const TestimonialsPage = () => {
                             />
                         </div>
                         <div>
-                            <label htmlFor="email" className="block text-sm font-medium text-gray-700">Correo Electrónico</label>
+                            <label htmlFor="email" className="block text-sm font-medium text-gray-100">Correo Electrónico</label>
                             <input
                                 type="email"
                                 name="email"
@@ -87,7 +87,7 @@ const TestimonialsPage = () => {
                             />
                         </div>
                         <div>
-                            <label htmlFor="subject" className="block text-sm font-medium text-gray-700">Asunto</label>
+                            <label htmlFor="subject" className="block text-sm font-medium text-gray-100">Asunto</label>
                             <input
                                 type="text"
                                 name="subject"
@@ -99,7 +99,7 @@ const TestimonialsPage = () => {
                             />
                         </div>
                         <div>
-                            <label htmlFor="message" className="block text-sm font-medium text-gray-700">Mensaje</label>
+                            <label htmlFor="message" className="block text-sm font-medium text-gray-100">Mensaje</label>
                             <textarea
                                 name="message"
                                 id="message"
@@ -120,8 +120,8 @@ const TestimonialsPage = () => {
                     </form>
 
                     {/* Lado derecho: Contacto por WhatsApp */}
-                    <div className="flex-1 space-y-4 text-center md:text-left">
-                        <p className="text-lg font-semibold text-gray-800">
+                    <div className="flex-1 space-y-4 text-center md:text-left shadow-sm shadow-[#85C1E9] px-4 py-3">
+                        <p className="text-lg font-semibold text-gray-300">
                             O también puedes contactarme directamente a mi WhatsApp:
                         </p>
                         <a

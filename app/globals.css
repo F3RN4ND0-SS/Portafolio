@@ -8,12 +8,13 @@ html {
 html,
 body {
   /* height: 100%; */
-  color: #fff;
-  background: #6dcea0;
+  color: #ffffff;
+  background: #424242;
 }
 
 main {
-  background: #393a47;
+  background: #424242
+  ;
   height: 100vh;
   height: 100dvh;
 }
@@ -21,7 +22,7 @@ main {
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets
   .swiper-pagination-bullet {
-  background-color: #f5741c;
+  background-color: #9E9E9E;
 }
 
 @layer utilities {

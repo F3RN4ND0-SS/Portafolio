@@ -30,10 +30,10 @@ const Navbar = () => {
     return (
         <MotionTransition position="right" className="fixed z-40 flex flex-col items-center justify-top h-full top-8 right-0 px-4 py-4">
             <nav ref={navbarRef}>
-                <div className="flex flex-col items-center justify-center gap-8 px-1 py-6 rounded-xl bg-white/15 backdrop-blur-sm shadow-xl shadow-green-900">
+                <div className="flex flex-col items-center justify-center gap-8 px-1 py-6 rounded-xl bg-white/15 backdrop-blur-sm shadow-xl shadow-[#85C1E9]">
                     
                     {/* Botón para expandir/retraer el menú, visible solo en dispositivos móviles */}
-                    <div className="lg:hidden px-2 py-2 transition duration-150 rounded-lg cursor-pointer hover:bg-secondary">
+                    <div className="lg:hidden px-2 py-2 transition duration-150 rounded-lg cursor-pointer hover:bg-[#85C1E9]">
                         <button onClick={toggleNavbar} className="flex flex-col items-center justify-center space-x-2"> 
                             <MenuIcon size={25} color="#fff" />
                             {isExpanded ? "Cerrar" : "Menu"}
@@ -45,7 +45,7 @@ const Navbar = () => {
                         {itemsNavbar.map((item) => (
                             <div
                                 key={item.id}
-                                className={`px-2 py-2 transition duration-150 rounded-lg cursor-pointer hover:bg-secondary ${router === item.link ? 'bg-secondary' : ''}`}
+                                className={`px-2 py-2 transition duration-150 rounded-lg cursor-pointer hover:bg-[#85C1E9] ${router === item.link ? 'bg-[#85C1E9]' : ''}`}
                             >
                                 <Link href={item.link}>{item.icon}</Link>
                             </div>

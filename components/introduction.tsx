@@ -3,11 +3,11 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Introduction = () => {
     return (
-        <div className="z-20 w-full bg-darkBg/100">
+        <div className="z-20 w-full ">
             <div className="z-20 flex flex-col-reverse md:flex-row items-center justify-center h-full p-8 py-20 md:py-0 pr-10 mt-20 md:mt-10 gap-10">
                 
                 <div className="flex flex-col justify-center max-w-xl">
-                    <h1 className="mb-5 text-xl leading-tight text-center md:text-left md:text-2xl md:mb-10"><b>CADA DESAFIO ES UNA OPORTUNIDAD <br />
+                    <h1 className="mb-5 text-xl leading-tight text-center md:text-left md:text-2xl md:mb-10"><b>CADA DESAFÍO ES UNA OPORTUNIDAD <br />
                         <TypeAnimation
                             sequence={[
                                 ' DE APRENDER ',
@@ -22,7 +22,7 @@ const Introduction = () => {
                             wrapper="span"
                             speed={50}
                             repeat={Infinity}
-                            className="font-bold text-secondary"
+                            className="font-bold text-blue-600"
                         />
                     </b></h1>
 
@@ -35,14 +35,14 @@ const Introduction = () => {
 
                     <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
                         <a 
-                            href="/CV_Salazar_Santos_Fernando.pdf" // Asegúrate de que la ruta coincida con la ubicación del archivo en tu proyecto
-                            download="CV_Salazar_Santos_Fernando.pdf" // Nombre de archivo sugerido al descargar
-                            className="px-3 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50"
+                            href="/CV_Salazar_Santos_Fernando.pdf" 
+                            download="CV_Salazar_Santos_Fernando.pdf" 
+                            className="font-bold px-3 py-2 my-2 transition-all border-4 cursor-pointer text-lg w-fit rounded-xl hover:scale-105 hover:bg-[#85C1E9] hover:text-white border-[#85C1E9]"
                         >
                             Descargar CV
                         </a>
                         <a href="/contact"
-                            className="px-3 py-2 my-5 transition-all border-2 cursor-pointer text-md w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary" >
+                            className="font-bold border-4 text-lg px-3 py-2 my-5 transition-all border-2 cursor-pointer text-md w-fit text-white border-[#2ECC71] rounded-xl hover:scale-105 hover:bg-[#2ECC71] hover:text-white hover:animate-pulse">
                             Contactame
                         </a>
                     </div>
@@ -53,7 +53,7 @@ const Introduction = () => {
                     width="300"
                     height="300"
                     alt="Avatar"
-                    className="rounded-full shadow-xl shadow-green-900 border-2 border-green-500 transform hover:scale-105 hover:rotate-3 hover:shadow-2xl transition duration-300 ease-in-out mt-40 md:-mt-40"
+                    className="rounded-full shadow-xl shadow-[#85C1E9] border-2 border-[#85C1E9] transform hover:scale-105 hover:rotate-3 hover:skew-y-2 hover:shadow-2xl transition duration-300 ease-in-out mt-40 md:-mt-40"
                 />
             </div>
         </div>

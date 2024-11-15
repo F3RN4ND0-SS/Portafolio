@@ -14,7 +14,7 @@ const AboutMePage = () => {
                 
                 <h1 className="text-2xl leading-tight text-center md:text-left md:text-5xl md:mt-10">
                     Mi{' '}
-                    <span className="font-bold text-secondary">
+                    <span className="font-bold text-blue-600">
                         Formacion Profesional
                     </span>
                 </h1>

@@ -8,7 +8,7 @@ const TimeLine = () => {
                     {dataAboutPage.map((data) => (
                         <div key={data.id} className="relative py-6 pr-4 sm:pr-32 group">
                             <time className="sm:absolute right-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase md:w-20 w-auto px-3 md:h-12 h-6 mb-3 sm:mb-0 text-emerald-800 bg-emerald-100 rounded-xl text-center">{data.date}</time>
-                            <h3 className="mb-1 text-2xl font-bold sm:mb-0">{data.title}</h3>
+                            <h3 className="mb-1 text-2xl font-bold sm:mb-0 text-gray-900">{data.title}</h3>
                             
                             <div className="flex flex-col sm:flex-row items-start mb-1 
                                         group-last:before:hidden before:absolute 
@@ -21,12 +21,12 @@ const TimeLine = () => {
                                         after:rounded-full sm:after:mr-[6.5rem] after:-translate-x-1/2 
                                         after:translate-y-1.5">
                                 
-                                <div className="text-xl font-bold text-gray-700">{data.subtitle}</div>
+                                <div className="text-xl font-bold text-gray-800">{data.subtitle}</div>
                                 
                             </div>
-                            <div className="text-slate-700">{data.description}</div>
+                            <div className="text-gray-100">{data.description}</div>
                             
-                            <button className="mt-4 px-4 py-2 bg-indigo-700 text-white rounded-lg hover:bg-indigo-500">
+                            <button className="mt-4 px-4 py-2 bg-[#2ECC71] text-white rounded-lg hover:bg-[#2ECC71]">
                             <a 
                                 href={data.certificate} // Asegúrate de que la ruta coincida con la ubicación del archivo en tu proyecto
                                 download="certificado.pdf" // Nombre de archivo sugerido al descargar
