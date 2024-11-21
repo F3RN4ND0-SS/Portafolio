@@ -138,9 +138,10 @@ const ServicesPage = () => {
                         <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-[#85C1E9]">
                             <Image src={ccna} alt="CCNA Logo" className="w-20 h-20 rounded-xl" />
                         </div>
-                        <div className="bg-gray-300 p-2 rounded-xl shadow-[#85C1E9]">
+                        <div className="bg-gray-300 p-2 rounded-xl shadow-xl shadow-[#85C1E9]">
                             <Image src={linux} alt="Linux Logo" className="w-20 h-20 rounded-xl" />
                         </div>
+            
                     </div>
                 </div>
             </div>

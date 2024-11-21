@@ -123,6 +123,14 @@ export const dataAboutPage = [
         date: "Mar 2024 - Abr 2024",
         certificate:"/CCTV.pdf"
     },
+    {
+        id: 5,
+        title: "Certificación Scrum Foundation Professional Certificate (SFPC™)",
+        subtitle: "CertiProf",
+        description: "He obtenido la certificación Scrum Foundation Professional Certificate (SFPC™) otorgada por CertiProf, lo que respalda mi conocimiento en los principios, roles, eventos y artefactos del marco Scrum. Esta certificación demuestra mi capacidad para aplicar prácticas ágiles en la gestión de proyectos, mejorando la colaboración en equipo y la entrega de valor continuo en entornos de desarrollo.",
+        date: "Nov 2024 - Nov 2024",
+        certificate:"https://www.credly.com/badges/6feb12d9-f54a-486d-9708-a7de732bafa5/public_url"
+    },
 ]
 
 export const dataCounter = [
